@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get '*path' => redirect('/')
 
   #set up landing page 
-  root to: 'posts#index'
+  root to: 'quotes#index'
    
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
