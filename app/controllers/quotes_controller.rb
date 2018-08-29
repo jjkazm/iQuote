@@ -1,7 +1,7 @@
 class QuotesController < ApplicationController
   # show all quotes
    def index
-        @quote =Quote.all.order("created_at DESC")
+        @quote = Quote.all.paginate(:page => params[:page], :per_page => 12).order("created_at DESC")
     end  
     
   # render new quote form
