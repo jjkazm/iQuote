@@ -3,7 +3,7 @@ class CreateQuotes < ActiveRecord::Migration[5.2]
     create_table :quotes do |t|
       t.text :body
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
