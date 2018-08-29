@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
   get 'quotes/index'
   get 'quotes/new'
-  resources :quotes
-
   # go to this page if url is not found
   get '*path' => redirect('/')
+  get 'quotes/*path' => redirect('/')
 
+  resources :quotes
   #set up landing page 
   root to: 'quotes#index'
    
