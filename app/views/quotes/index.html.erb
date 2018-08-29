@@ -1,9 +1,15 @@
-<h1>Welcome to iQuote</h1>
-<h2>iQuote Best movie quotes you can find</h2>
-<%= link_to 'Add new quote', new_quote_path %> 
-<% @quote.each do |quote| %>
-    <h3>"<%= quote.body%>"</h3>
-    <p><%= quote.created_at.strftime('Created on %d %B %Y') %></p>
-    <hr>
-<% end %>
-<%= will_paginate @quote %>
+<div class ="box border">
+	<div id="head" class="border">
+		<h1>Welcome to iQuote</h1>
+		<h2> Best movie quotes you can find</h2>
+		<strong><%= link_to 'Add new quote', new_quote_path %></strong>
+	</div>
+	<div>
+		<% @quote.each do |quote| %>
+		    <h3>"<%= quote.body%>"</h3>
+		    <p><%= quote.created_at.strftime('Created on %d %B %Y') %></p>
+		    <hr>
+		<% end %>
+		<%= will_paginate @quote %>
+	</div>
+</div>

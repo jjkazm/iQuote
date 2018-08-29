@@ -1,12 +1,13 @@
-<h1>Add new quote</h1>
-<h5>It better be a good one</h5>
-<%= form_for (@quote) do |f| %>
-    <p>
-        <%= f.label :body %><br />
-        <%= f.text_area :body %><br />
-    </p>
-    <p>
-        <%= f.submit "Submit" %>
-    </p>
-<% end %>
+<div class="box" id="form">
+	<h1>Add new quote</h1>
+	<h5>It better be a good one</h5>
+	<%= form_for (@quote) do |f| %>
+	    <p>
+	        <%= f.text_area :body %><br />
+	    </p>
+	    <p>
+	        <%= f.submit "Submit" %>
+	    </p>
+	<% end %>
+</div>
 

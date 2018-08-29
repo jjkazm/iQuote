@@ -1,0 +1,107 @@
+[33mcommit 261aa71158c095181b98cfdb9fa2449b46898b63[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mheroku/master[m[33m)[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 12:58:51 2018 +0200
+
+    correct spelling
+
+[33mcommit 693539d88f60d70246bd2c8432a5ee40fe269355[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 12:18:43 2018 +0200
+
+    add pagination
+
+[33mcommit 2ec5b865ef006f569ce148a41eb3e2a75cdb03eb[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 11:03:04 2018 +0200
+
+    add seed data
+
+[33mcommit a10c64d3e52b146cebebc825fead5bf649009290[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 04:33:10 2018 +0200
+
+    fix timestamp issue
+
+[33mcommit a4e3c938bd9e6b42c4ae479547e44a1550cabd92[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 04:01:47 2018 +0200
+
+    add link to new quote page
+
+[33mcommit 7648fa0d61dde6daca8dc088d3a8c2940888de09[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 03:56:27 2018 +0200
+
+    add params permission in contoller
+
+[33mcommit 8f2ebf20548a7113f6a549cd3f323052376457b0[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 03:46:03 2018 +0200
+
+    add logic to new view
+
+[33mcommit 226e3d628f9defdc601e8bbb9c7ff8953d93bae8[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 03:41:05 2018 +0200
+
+    add routes in controller
+
+[33mcommit 3360ef24a4809cd684dd0f857f1148bdeee87036[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 03:28:30 2018 +0200
+
+    add logic to index view
+
+[33mcommit 8a3f13e37198e08aa99d68d7cc735575030344dc[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 03:22:11 2018 +0200
+
+    migrate database
+
+[33mcommit 973765ab079df6aa35ee54d40c095e53abfe6f7d[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 03:18:30 2018 +0200
+
+    create quote model
+
+[33mcommit 4b2f72742655a226873cb9df29056386deda0b7e[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 03:09:42 2018 +0200
+
+    add file readme- to be deleted
+
+[33mcommit f0f9392d44d5300fd307f669863b5b5177e6fb2e[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 02:37:30 2018 +0200
+
+    switch sqlite to postgresql
+
+[33mcommit 29ee98e8b9cdce00e701925d65454fe5437b551a[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 01:39:52 2018 +0200
+
+    change root path
+
+[33mcommit 7c3396e93ca266f4510cabfbbbf246573cfedba0[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 01:32:02 2018 +0200
+
+    add root site in route file
+
+[33mcommit b0ec436cc57a6a657c36f9aa060694454d09aeff[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 01:22:35 2018 +0200
+
+    config routes file
+
+[33mcommit b2609ca9927a1a1ad238bfe77822f888808ed88b[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 01:18:31 2018 +0200
+
+    add quotes controller
+
+[33mcommit ff059b0fcfeb697f2f5cc4ef7bf26441771f3933[m
+Author: Kuba Kazmierczak <kazmierczak88@gmail.com>
+Date:   Wed Aug 29 00:38:26 2018 +0200
+
+    initialize app
