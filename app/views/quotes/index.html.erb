@@ -1,1 +1,6 @@
 <h1>this is index file</h1>
+<% @quote.each do |quote| %>
+    <h3><%= quote.body%></h3>
+    <p><%= @quote.created_at.strftime('Created on %d %B %Y') %></p>
+    <hr>
+<% end %>
