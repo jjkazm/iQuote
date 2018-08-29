@@ -17,4 +17,7 @@ class QuotesController < ApplicationController
           render ‘new’
      end 
     end
+    def quote_params
+        params.require(:quote).permit(:body)
+    end
 end
