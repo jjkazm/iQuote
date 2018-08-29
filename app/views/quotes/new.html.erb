@@ -1,2 +1,12 @@
-<h1>New</h1>
+<h1>Add new quote</h1>
+<h3>Its better be good one</h3>
+<%= form_for (@quote) do |f| %>
+    <p>
+        <%= f.label :body %><br />
+        <%= f.text_area :body %><br />
+    </p>
+    <p>
+        <%= f.submit "Submit" %>
+    </p>
+<% end %>
 
